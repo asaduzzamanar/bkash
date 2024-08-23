@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header_area{
+    background-color: #e2136e;
+    width: 100%;
+    height: 80px;
+}
+.logo{
+    width: 18%;
+    float: left;
+    height: 60px;
+    margin-left: 10px;
+}
+.bkash_logo{
+    margin-left: 40%;
+}
+
+.bkash_logo img{
+    width: 100px;
+    height: 100px;
+    margin-top: -10px;
+}
+
+.menu{
+    float: left;
+    width: 50%;
+    height: 80px;
+    text-align: center;
+}
+.menu nav{
+    margin-top: 25px;
+    align-items: center;
+    text-align: center;
+}
+.menu nav ul{
+    list-style-type: none;
+}
+.menu nav ul li{
+    float: left;
+    padding: 5px;
+    margin-left: 15px;
+    
+}
+.menu nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu nav ul li a p{
+    float: right;
+    width: 10px;
+    height: 10px;
+    margin-left: ;
+}
+
+
+.bkash_button{
+    padding: 10px 41px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #e2136e;
+    border: 1px solid white;
+    cursor: pointer;
+    
+}
+.bkash_button a{
+    text-decoration: none;
+    color: white;
+}
+.bkash_button a:hover{
+    color: #e2136e;
+}
+
+.bkash_button:hover{
+    color: #e2136e;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    background-color: white;
+}
+
+.eng{
+    color: white;
+    font-size: 14px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.menu_button{
+    background-color: #e2136e;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    display: none;
+}
+/* Header End: */
+
+
+#main_contenter{
+    width:80%;
+    margin: auto;
+}
+
+.cempain1{
+    margin: 0;
+    width:80%;
+    margin: auto;
+}
+
+.cempain_menu ul li{
+    
+    margin-top: 50px;
+    list-style: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+.cempain1 h1{
+    margin-top: 20px;
+    line-height: 3.5ch;
+}
+.dr_img{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.dr_img img{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+.article1{
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 4ch;
+}
+
+.commnts{
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 10px;
+    border-bottom: 1px solid white;
+}
+.com_area b{
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+}
+.com_area{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+.commnts_man{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+.commnts_man img{
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.commnts_man p{
+    margin-left: 100px;
+    line-height: 3ch;
+    font-size: 14px;
+}
+.commnts_man p b{
+    color: cadetblue;
+    line-height: 3cap;
+}
+.commnts_man p small{
+    color: cadetblue;
+    line-height: 4ch;
+}
+
+.takahoile{
+    width: 100%;
+}
+.takahoile h1{
+    margin-bottom: 10px;
+}
+.takahoile li{
+    padding: 5px;
+    margin-left: 15px;
+}
+.form_area{
+    width: 100%;
+    margin: auto;
+    background-color: #ffcde2;
+    line-height: 4ch;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.form_area h1{
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+}
+.form_inf{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.name_text{
+    font-size: 18px;
+    width: 100%;
+    float: left
+}
+.name_text b{
+    color: red;
+}
+.typeebox{
+    width: 97%;
+    height: 20px;
+    padding: 8px;
+    border: 1px solid rgb(163, 153, 159);
+    border-radius: 5px;
+    outline: none;
+}
+.typeebox1{
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    border: 1px solid rgb(163, 153, 159);
+    border-radius: 5px;
+    outline: none;
+    font-weight: bold;
+}
+.typeebox1:hover{
+    border: 1px solid #e2136e;
+}
+.typeebox:hover{
+    border: 1px solid #e2136e;
+}
+.button_area{
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.buttonn{
+    padding: 10px 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #e2136e;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    cursor: pointer;
+}
+.footer_main{
+    width: 100%;
+    background-color: black;
+   
+    
+}
+.footer_area{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid white;
+
+}
+.footer_main p{
+    color: white;
+    margin-left: 100px;
+    line-height: 3ch;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    
+}
+.stor{
+    width: 100%;
+    background-color: black;
+    color: white; 
+}
+.stor img{
+    padding: 40px;
+    margin-left: 60px;
+}
+.stor h4{
+    padding: 0px 40px;
+    margin-left: 60px;
+    font-weight: bold;
+}
+.logo2 img{
+    margin-top: 10px;
+    width: 30%;
+    height: 20%;
+}
+.logo2{
+    margin-top: -30px;
+}
+.appArea{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+}
+.logo_foot{
+   width: 20%;
+   float: left;
+   margin-top: -50px;
+   padding: 0;
+   margin-left: 0;
+   margin-bottom: 20px;
+}
+.logo_foot img{
+    width: 120%;
+    height: 80%;
+}
+.moremenu{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    width: 45%;
+    background-color: black;
+    color:white;
+    margin: auto;
+}
+
+.menu_cards{
+    width: 15%;
+    padding: 15px;
+    line-height: 4ch;
+    margin-top: 100px;
+    float: right;
+}
+.menu_cards ul{
+    font-size: 14px;
+}
+
+.copy_right{
+    background-color: black;
+    margin: auto;
+    
+
+}
+.copy_right p{
+    padding: 20px;
+    color: white;
+    margin-left: 0;
+    font-size: 12px;
+    margin-left: 80px;
+    
+}
+
+@media only screen and (max-width: 1000px){
+    .menu_button{
+        display: inline;
+        float: right;
+        margin-right: 60px;
+        margin-top: 25px;
+    }
+    .menu{
+        display: none;
+    }
+    .bkash_button{
+        display: none;
+    }
+    .eng{
+        display: none;
+    }
+}
