@@ -383,6 +383,10 @@
 }
 
 @media only screen and (max-width: 1000px){
+    #main_contenter{
+        width:100%;
+        margin: auto;
+    }
     .menu_button{
         display: inline;
         float: right;
